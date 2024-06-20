@@ -1,5 +1,6 @@
 import Image from "next/image";
 import DraggableImage from "./components/DraggableImages";
+import BG from "@/app/assets/hero_background_image.jpg";
 import Hero0 from "@/app/assets/hero/home_hero_biology.png";
 import Hero1 from "@/app/assets/hero/home_hero_chemistry.png";
 import Hero2 from "@/app/assets/hero/home_hero_math.png";
@@ -13,7 +14,10 @@ import HomeGroup from "@/app/assets/home_group_teachers.jpg";
 export default function Home() {
   return (
     <>
-      <section className="md:py-32 py-14 bg-gray-200">
+      <section
+        className="md:py-32 py-14 bg-gray-200 bg-cover bg-no-repeat"
+        style={{ backgroundImage: `url(${BG.src})` }}
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex md:flex-row flex-col-reverse">
             <div className="md:flex-[.4] md:text-start text-center z-20 relative backdrop-blur-md md:pt-4 md:p-4 rounded-md pt-8">
