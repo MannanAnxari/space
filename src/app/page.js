@@ -20,7 +20,7 @@ export default function Home() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex md:flex-row flex-col-reverse">
-            <div className="md:flex-[.4] md:text-start text-center z-20 relative backdrop-blur-md md:pt-4 md:p-4 rounded-md pt-8">
+            <div className="md:flex-[.4] md:text-start text-center z-20 relative backdrop-blur-md md:pt-4 md:p-4 rounded-md sm:pt-8">
               <h1 className="text-2xl font-bold mb-4">
                 Engage. Learn. Connect.
               </h1>
@@ -41,27 +41,27 @@ export default function Home() {
             <div className="relative md:flex-[.6] md:h-0 h-[50vh] md:scale-100 scale-[.8] z-10">
               <DraggableImage
                 imgSrc={Hero0}
-                classes="md:right-[-200px] right-[-100px] md:top-[100px] top-[155px]"
+                classes="md:right-[-200px] right-[-80px] md:top-[100px] top-[155px]"
                 deg={4}
               />
               <DraggableImage
                 imgSrc={Hero3}
-                classes="md:right-[310px] right-[350px] top-[-50px]"
+                classes="md:right-[310px] right-[310px] top-[-70px]"
                 deg={9}
               />
               <DraggableImage
                 imgSrc={Hero4}
-                classes="right-[150px] top-[120px]"
+                classes="right-[150px] top-[66px]"
                 deg={-12}
               />
               <DraggableImage
                 imgSrc={Hero1}
-                classes="right-[-80px] top-[-50px]"
+                classes="right-[-60px] top-[-74px]"
                 deg={9}
               />
               <DraggableImage
                 imgSrc={Hero2}
-                classes="md:right-[100px] right-[140px] top-[-120px]"
+                classes="md:right-[100px] right-[110px] top-[-174px]"
                 deg={-12}
               />
             </div>
